@@ -1,0 +1,137 @@
+
+@media screen and (max-width: 1198px){
+	nav ul li{
+       /*display: none;*/
+	}
+	 .right .img1,
+	 .right .img2{
+      margin-top: -430px;
+	}.right .img1{
+     background-size: 50px;
+  }
+     .about-h-bottom img,
+     .about-center img,
+     .about-bottom img{
+        padding: 16px;
+    }.left .wrapper2{
+     	margin: 0px;
+    }.text-banner{
+  	    width: 300px;
+  }.menu-toggle{
+  	    display: block;
+  	    width: 40px;
+  	    height: 40px;
+  	    margin: 10px;
+  	    float: right;
+  	    cursor: pointer;
+  	    font-size: 40px;
+  	    text-align: center;
+  	    color: #4CB9FF;
+  }.menu-toggle:before{
+	  	content:'\f0c9';
+	  	font-family: fontAwesome;
+	  	line-height: 40px;
+  }.menu-toggle.active:before{
+  	    content:'\f00d';
+  }
+  nav{
+  	display: none;
+  }nav.active{
+  	
+  	width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    background-color: #141729d9;
+    position: absolute;
+    top: 91px;
+  }nav.active ul{
+  	display:block;
+
+  }nav.active ul li a{
+  	color: #ffffff;
+  }nav.active ul li a .contactBtn{
+  	
+  }
+ 
+}
+
+
+@media screen and (max-width: 1024px){
+	.right .img1,
+	.right .img2{
+        margin-top: -437px;
+    }.about-text {
+        margin-top: 0px;
+        width: 869px;
+    }.about-text p{
+      text-align: center;
+    }.about-text h6{
+      font-size: 25px;
+      width: 400px;
+    }.pricing-text-up {
+      margin-top: 300px;
+    }.wrapper2 {
+      margin: 0px;
+      display: inline;
+	}.banner .left {
+	    width: 450px;
+	}.contact-center .right {
+	    width: 100%;
+    }.left .text-contact{
+    	width: 100%;
+    }.right .product-text{
+    	width: 100%;
+    }
+    .left .product-text{
+    	width: 100%;
+    	padding: 30px;
+    }.left .product-text p{
+    	width:100%;
+    }.right .wrapper{
+    	display:flex;
+    	flex-wrap: wrap;
+    	transform: none;
+    	margin-top: 80px;
+    }.wrapper .box{
+    	transform: none;
+    	width: 40%;
+    	margin: 30px;
+    }.wrapper .item1,
+     .wrapper .item2,
+     .wrapper .item3,
+     .wrapper .item4{
+     	margin-bottom: 0;
+     	margin-top: 75px;
+     }.img-square {
+    
+       height: 411px;
+       padding-left: 401px;
+       background-size: 359px;
+    } .priceBox1, 
+      .priceBox2,
+      .priceBox3 {
+    	transform: none;
+    	margin: 30px;
+    }.priceBox {
+    	display: flex;
+    	flex-wrap: wrap;
+    	justify-content: center;
+    }.wrapper .text-box {
+	    padding: 20px;
+	    padding-top: 90px;
+	    width: 300px;
+    }.left .main-box{
+    	width: 100%;
+    	padding: 180px;
+    }.product-text p{
+    	width: 100%;
+    }.pricing-box_1{
+    	transform: none;
+    }.product-btn{
+    	margin: 30px;
+    }
+
+}
+
